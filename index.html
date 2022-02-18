@@ -25,11 +25,13 @@
 
     <header class="header" >
         <div class="container header-container">
-            <nav class="navigation">
+            <div class="header-logo">
                 <a class="logo link" href="index.html" aria-label="логотип сайта">
                         <p><span class="logo-web">Web</span><span class="logo-studio">Studio</span></p>
                 </a>
+            </div>
 
+            <nav class="header-navigation">
                 <ul class="nav-list list">
                     <li class="nav-list-item">
                         <a class="nav-list-link link active-page" href="">Студия</a></li>
@@ -40,93 +42,99 @@
                 </ul>
             </nav>
 
-        <a class="contact-mailto link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="contact-number link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <div class="header-contacts" >
+                <a class="contact-mailto link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="contact-number link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </div>
         </div>
     </header>
 
     <main>
         <!--  HERO -->
-      <section class="hero">
-          <div class="hero container">
+        <section class="hero">
+            <div class="container hero-container">
                 <h1 class="main-title" lang="ru">Эффективные решения <br> для вашего бизнеса </h1>
                 <button class="mobal-btn" type="button" >Заказать услугу</button>
-         </div>
-     </section>
+            </div>
+        </section>
         
         <!--  ABOUT -->
-      <section class="about">
-          <div class=" container abaut-container">
-                <h2 hidden>Особенности работы</h2>
-                    <!--  Особенности работы -->
-                 <ul class="specifics">
-                        <li class="specifics-one">
-                            <h3 class="specifics-theme" >Внимание к деталям</h3>
-                            <p class="specifics-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p></li>
-                        <li class="specifics-two">
-                            <h3 class="specifics-theme">Пунктуальность</h3>
-                            <p class="specifics-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p></li>
-                        <li class="specifics-three">
-                            <h3 class="specifics-theme">Планирование</h3>
-                            <p class="specifics-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p></li>
-                        <li class="specifics-four">
-                            <h3 class="specifics-theme">Современные технологии</h3>
-                            <p class="specifics-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p></li>
-                 </ul>
-         </div>
-      </section>
+        <section class="about">
+
+            <div class=" container abaut-container">
+
+                  <h2 hidden>Особенности работы</h2>
+                  <!--  Особенности работы -->
+                  <ul class="grid specifics-list">
+                         <li class="link grid-item specifics-item">
+                             <h3 class="specifics-theme" >Внимание к деталям</h3>
+                             <p class="specifics-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p></li>
+                         <li class="link grid-item specifics-item">
+                             <h3 class="specifics-theme">Пунктуальность</h3>
+                             <p class="specifics-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p></li>
+                         <li class="link grid-item specifics-item">
+                             <h3 class="specifics-theme">Планирование</h3>
+                             <p class="specifics-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p></li>
+                         <li class="link grid-item specifics-item">
+                             <h3 class="specifics-theme">Современные технологии</h3>
+                             <p class="specifics-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p></li>
+                  </ul>
+            </div>
+        </section>
 
         <!--  Чем мы занимаемся  -->
-      <section class="what-we-do">
-          <div class=" container what-we-do-container">
-                <h2 class="title-img">Чем мы занимаемся</h2>
-                <ul class="list-img-work">
-                    <li class="img-work">
+        <section class="what-we-do">
+            <div class=" container what-we-do-container">
+                <h2 class="title-img title-what-we-do">Чем мы занимаемся</h2>
+                <ul class="grid what-we-do-list">
+                    <li class=" img-work">
                             <img src="./images/img11.jpg" alt="работа програмиста" width="370" height="294" ></li>
-                    <li class="img-work">
+                    <li class=" img-work">
                             <img src="./images/img22.jpg" alt="для смартфонов" width="370" height="294" ></li>
-                    <li class="img-work">
+                    <li class=" img-work">
                             <img src="./images/img33.jpg" alt="для графических планшетов" width="370" height="294"></li>
                 </ul>
-        </div>
-       </section>
+            </div>
+        </section>
 
                 <!--  TEAM  -->
-      <section class="section-our-team">
-          <div class=" container our-team-container">
-                <h2 class="title-img">Наша команда</h2>
-                <ul class="list-img-team">
-                    <li class="bloc-img-team">
-                        <img class="img-team" src="./images/img44.jpg" alt="" width="270" height="260">
-                        <h3 class="img-name-team">Игорь Демьяненко</h3>
-                        <p class="img-position-team">Designer</p>
-                    </li>
-                    <li class="bloc-img-team">
-                        <img src="./images/img55.jpg" alt="" width="270" height="260">
-                        <h3 class="img-name-team">Ольга Репина</h3>
-                        <p class="img-position-team">Frontend Developer</p>
-                    </li>
-                    <li class="bloc-img-team">
-                        <img src="./images/img66.jpg" alt="" width="270" height="260">
-                        <h3 class="img-name-team">Николай Тарасов</h3>
-                        <p class="img-position-team">Marketing</p>
-                    </li>
-                    <li class="bloc-img-team">
-                        <img src="./images/img77.jpg" alt="" width="270" height="260">
-                        <h3 class="img-name-team">Михаил Ермаков</h3>
-                        <p class="img-position-team">UI Designer</p>
-                    </li>
-                </ul>
-          </div>
-
-      </section>
+        <section class="section-our-team">
+            <div class=" container our-team-container">
+                  <h2 class="title-img title-team">Наша команда</h2>
+                  <ul class="grid list-img-team">
+                      <li class="grid-item bloc-img-team">
+                          <img class="img-team" src="./images/img44.jpg" alt="" width="270" height="260">
+                          <h3 class="img-name-team">Игорь Демьяненко</h3>
+                          <p class="img-position-team">Designer</p>
+                      </li>
+                      <li class="grid-item bloc-img-team">
+                          <img src="./images/img55.jpg" alt="" width="270" height="260">
+                          <h3 class="img-name-team">Ольга Репина</h3>
+                          <p class="img-position-team">Frontend Developer</p>
+                      </li>
+                      <li class="grid-item bloc-img-team">
+                          <img src="./images/img66.jpg" alt="" width="270" height="260">
+                          <h3 class="img-name-team">Николай Тарасов</h3>
+                          <p class="img-position-team">Marketing</p>
+                      </li>
+                      <li class="grid-item bloc-img-team">
+                          <img src="./images/img77.jpg" alt="" width="270" height="260">
+                          <h3 class="img-name-team">Михаил Ермаков</h3>
+                          <p class="img-position-team">UI Designer</p>
+                      </li>
+                  </ul>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
-        <div>
-            <a class="logo link" href="index.html" aria-label="логотип сайта">
-                <p><span class="logo-web">Web</span><span class="footer-logo-studio">Studio</span></p>
-            </a>
+        <div class="container footer-container">
+            <div class="logo-footer">
+                <a class="logo link" href="index.html" aria-label="логотип сайта">
+                    <p><span class="logo-web">Web</span><span class="footer-logo-studio">Studio</span></p>
+                </a>
+            </div>
+
             
             <address class="footer-address">
                 <ul>

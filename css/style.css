@@ -227,9 +227,9 @@ address {
   background: var(--button-studio-hover-color);
   color: var(--text-color-theme-darc);
   cursor: pointer; /*
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);*/
   border-radius: 4px;
-  border: #188ce8;*/
+  border: none;
   margin: 0 auto;
   padding: 10px 32px;
 }
@@ -316,7 +316,7 @@ address {
   padding-bottom: var(--indent);
 }
 .img-name-team {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .img-position-team {
